@@ -10,7 +10,7 @@ var upperCase = confirm('Add Uppercase Letters?')
 var numbers = confirm('Add numbers?')
 var specials = confirm('Add Special Characers?')
 
-
+const length = parseInt(document.getElementById('passwordLength').value);
 
 var password = '';
 
