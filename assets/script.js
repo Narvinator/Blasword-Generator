@@ -8,6 +8,12 @@
   
   var uppercaseLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
+var uppercase = confirm('Add Uppercase Letters?') 
+
+var numbers = confirm('Add numbers?')
+
+var specials = confirm('Add Special Characers?')
+
 
 
 
