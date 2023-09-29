@@ -10,7 +10,7 @@ var upperCase = confirm('Add Uppercase Letters?')
 var numbers = confirm('Add numbers?')
 var specials = confirm('Add Special Characers?')
 
-const length = parseInt(document.getElementById('passwordLength').value);
+const length = (document.getElementById('passwordLength').value);
 
 var password = '';
 
@@ -33,7 +33,7 @@ for (let i = 0; i < length; i++) {
 }
 
 
-document.getElementById ('password')
+document.getElementById ('password').value = password;
 }
 // Add event listener to generate button
 generate.addEventListener("click", generatePassword);
