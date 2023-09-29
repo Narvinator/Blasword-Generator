@@ -1,4 +1,5 @@
 
+function generatePassword(){
 
 var specialCharacters = '!@#$%^&*()_+[]{}|;:,.<>?';
 var numbers = '0123456789';
@@ -24,7 +25,7 @@ if (specials) {
   lowercaseLetters += specialCharacters
 }
 
-document.getElementById()
+
 
 for (let i = 0; i < length; i++) {
   var passGen = Math.floor(Math.random() * lowercaseLetters.length);
@@ -33,7 +34,7 @@ for (let i = 0; i < length; i++) {
 
 
 document.getElementById ('password')
-
+}
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generate.addEventListener("click", generatePassword);
 
